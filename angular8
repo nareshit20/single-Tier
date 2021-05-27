@@ -1,0 +1,8 @@
+---
+# tasks file for angular
+     - name: Ensure nodejs.install installed
+       win_chocolatey:
+           name: nodejs
+           state: present
+           version: 12.18.3
+           #source: http://internal/odata/repo
